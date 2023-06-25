@@ -1,0 +1,130 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.inner-container{
+    /* background-color: red; */
+    width: 55%;
+    
+}
+.search-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    /* position: relative; */
+    /* background-color: black; */
+}
+.search-icon{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 90%;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.search-area{
+    width: 85%;
+    padding: 16px 10px;
+   font-size: 0.9rem;
+   font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.download-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f6f4f0;
+    /* padding: 10px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filters-heading{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.filter-item{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(20,44,143);
+}
+
+.status{
+    margin-top: 5%;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0d0d0de0;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:5%;
+    padding: 25px 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 35%;
+    margin-left: 10px;
+}
+
+.image{
+    width: auto;
+    /* background-color: #c08817; */
+    /* border-radius: 50%; */
+}
+#image{
+    border-radius: 50%;
+    background-color: rgb(135, 97, 97);
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+}
+.name{
+    width: 80%;
+    /* background-color: aqua; */
+    text-align: start;
+    margin-left: 15px;
+    color: #6b6b6a;
+    
+}
+
+.price{
+    font-weight: 700;
+    margin-right:15px
+}
